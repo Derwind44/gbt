@@ -87,7 +87,6 @@
                             </div>
                         </div>
                         <div class="header-right-bar">
-
                             <div class="header__hamburger d-xl-block my-auto">
                                 <div class="sidebar__toggle">
                                     <i class="fa-light fa-bars"></i>

@@ -155,8 +155,11 @@
                                     </div>
                                     <div class="content">
                                         <p>Lokasi</p>
-                                        <h3>
-                                            Jl. Gayung Kebonsari Tengah No.9-11 Gayungan, Surabaya </h3>
+                                        <h3><a target="__blank"
+                                                href="https://www.google.com/maps/place/GBT.+Bethlehem+Surabaya/@-7.3302057,112.720292,870m/data=!3m2!1e3!4b1!4m6!3m5!1s0x2dd7fbbf132f492b:0x9e8a0383263da883!8m2!3d-7.3302057!4d112.7228669!16s%2Fg%2F11y26fbs27?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D">
+                                                Jl. Gayung Kebonsari Tengah No.9-11 Gayungan, Surabaya
+                                            </a>
+                                        </h3>
                                     </div>
                                 </div>
                             </div>
@@ -178,8 +181,7 @@
                                 Silahkan isi form berikut untuk mendaftar sebagai jemaat atau pelayanan divisi di GBT
                                 Bethlehem. Kami akan menghubungi Anda segera melalui WhatsApp atau email yang Anda berikan.
                             </p>
-                            <form id="submit-to-google-sheet" class="contact-form-items"
-                                action="">
+                            <form id="submit-to-google-sheet" class="contact-form-items" action="">
                                 {{-- @csrf --}}
                                 @if (session('success'))
                                     <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -222,7 +224,8 @@
                                     <div class="col-lg-12 wow fadeInUp" data-wow-delay=".5s">
                                         <div class="form-clt">
                                             <span><i class="fa-solid fa-location-dot me-1"></i> Alamat*</span>
-                                            <input type="text" name="Alamat" id="address" placeholder="Alamat lengkap"
+                                            <input type="text" name="Alamat" id="address"
+                                                placeholder="Alamat lengkap"
                                                 class="@error('address') is-invalid @enderror"
                                                 value="{{ old('address') }}">
                                             @error('address')
@@ -289,7 +292,7 @@
     </section>
 
     <!-- Map Section Start -->
-    {{-- <div class="map-section section-padding pb-0">
+    <div class="map-section section-padding pb-0 pt-0">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-12 text-center">

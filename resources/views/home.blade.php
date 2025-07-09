@@ -110,6 +110,48 @@
     </div>
 </section>
 
+<section class="about-section-3 section-padding pt-5 pb-0 fix">
+        <div class="container-fluid">
+            <div class="about-wrapper-3">
+                <div class="row g-4 align-items-center">
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="about-content">
+                            <div class="section-title">
+                                <span class="wow fadeInUp">God Bless you</span>
+                                <h1 class="wow fadeInUp mb-5 mb-md-0" data-wow-delay=".3s">
+                                    Join us in shaping a <br>
+                                        brighter future together.
+                                </h1>
+                            </div>
+
+                            {{-- <a class='theme-btn wow fadeInUp' data-wow-delay='.3s' href='about.html'>Tentang Gereja</a> --}}
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-6">
+                        <div class="about-image-items">
+                            <div class="row g-4">
+                                <div class="col-md-7 d-none d-md-block">
+                                    <div class="about-image style-2">
+                                        <img src="assets/img/hero/oppah.webp" style="scale: 2.5" alt="img" class="wow img-custom-anim-left mt-5" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                                        <div class="shape">
+                                            <img src="assets/img/about/red-love.png" alt="img">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="about-image">
+                                        <img src="assets/img/hero/omah.png" style="scale: 2; transform: scaleX(-1)" alt="img" class="wow wow img-custom-anim-right mt-5" data-wow-duration="1.5s" data-wow-delay="0.5s">
+                                        <span class="border"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
 <!-- About Section -->
 {{-- <section class="about-section-2 fix section-padding pt-0">
     <div class="shape">
